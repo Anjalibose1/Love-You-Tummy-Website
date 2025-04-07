@@ -1,13 +1,7 @@
-# 🍔 Love You Tummy - Food Ordering Website
+# Love You Tummy Website
 
-A simple online food ordering website with a beautiful front-end and PHP backend.
+This is a simple webpage showing product price in Indian Rupees.
 
-## 🔥 Features
-- Menu display
-- Order selection
-- Feedback/contact form
+## 📸 Screenshot
 
-## 🧪 To Run Locally
-1. Clone this repo
-2. Run in XAMPP/LAMP server
-3. Open `index.html` to view the site
+![Website Screenshot](https://github.com/Anjalibose1/Love-You-Tummy-Website/blob/main/screenshot.png?raw=true)

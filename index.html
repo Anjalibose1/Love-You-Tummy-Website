@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love You Tummy - Online Food Ordering</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Love You Tummy</h1>
+    <p>Delicious food, delivered to your door 🍲</p>
+  </header>
+
+  <div class="container">
+    <h2>Place Your Order</h2>
+    <form action="orderhandle.php" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="food">Select Dish</label>
+      <select id="food" name="food" required>
+        <option value="">-- Choose an Item --</option>
+        <option value="butter_chicken">Butter Chicken</option>
+        <option value="paneer_tikka">Paneer Tikka</option>
+        <option value="biryani">Veg Biryani</option>
+        <option value="dosa">Masala Dosa</option>
+        <option value="chole_bhature">Chole Bhature</option>
+      </select>
+
+      <label for="address">Delivery Address</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <input type="submit" value="Place Order" />
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Love You Tummy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
